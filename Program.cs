@@ -7,7 +7,7 @@ double peso = Convert.ToDouble (pesodigitado);
 
 double imc = peso / Math.Pow (altura, 2) ;
 
-Console.WriteLine ("Seu IMC é: {imc}");
+Console.WriteLine ($"Seu IMC é: {imc:N1} kg/m²");
 
 
 
